@@ -25,6 +25,7 @@ Instead of turning this readme into another blog, here are some good blogs expla
 https://www.infoq.com/articles/microservices-aggregates-events-cqrs-part-1-richardson
 https://www.infoq.com/articles/microservices-aggregates-events-cqrs-part-2-richardson
 (https://youtu.be/7kX3fs0pWwc)
+
 https://www.confluent.io/blog/data-dichotomy-rethinking-the-way-we-treat-data-and-services/
 
 
