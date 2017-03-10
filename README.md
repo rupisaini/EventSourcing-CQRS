@@ -28,7 +28,7 @@ https://www.infoq.com/articles/microservices-aggregates-events-cqrs-part-2-richa
 (https://youtu.be/7kX3fs0pWwc)
 
 
-### Links to under stand CQRS
+### Links to understand CQRS
 http://danielwhittaker.me/2014/11/15/aggregate-root-cqrs-event-sourcing/
 https://msdn.microsoft.com/en-us/library/jj591569.aspx
 https://msdn.microsoft.com/en-us/library/jj591577.aspx
