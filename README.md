@@ -24,13 +24,19 @@ It wouldn't take long when microservices start looking like this.
 
 *Microservices spaghetti diagram.*
 
+API based approach introduced a great deal of complexity when implementing business transactions involving several services, so we struggled to continuously deliver changes in an efficient and safe manner. Handling a failure in any of the participating service required careful consideration.
+
+Testing strategy required depending services to be stubbed, so as to be able to contract-test one service in isolation from the others. Each service had a stub, with its own code repository and deployment pipelines. Stubbing each service, dramatically increased the number of services to manage, and had to create dedicated environments where each service only depends on stubs for contract-testing.
+
+High services coupling prevented releasing them independently from one another. You ended up with a “monolithic” release process where all services are deployed simultaneously, alongside the client application.
 
 
 ​
 
 
-Instead of turning this readme into another blog, here are some good blogs explaining the issue in much more detail.
+Instead of turning this readme into another blog, here are some good blogs explaining the issue in much more detail.__
 http://blog.christianposta.com/microservices/the-hardest-part-about-microservices-data/. ​
+https://www.thoughtworks.com/insights/blog/scaling-microservices-event-stream. 
 https://www.ibm.com/developerworks/cloud/library/cl-build-app-using-microservices-and-cqrs-trs/
 https://www.confluent.io/blog/data-dichotomy-rethinking-the-way-we-treat-data-and-services/
 https://www.infoq.com/articles/microservices-aggregates-events-cqrs-part-1-richardson
