@@ -40,8 +40,11 @@ https://www.infoq.com/articles/microservices-aggregates-events-cqrs-part-2-richa
 
 ### Links to understand CQRS
 http://danielwhittaker.me/2014/11/15/aggregate-root-cqrs-event-sourcing/
+
 https://msdn.microsoft.com/en-us/library/jj591569.aspx
+
 https://msdn.microsoft.com/en-us/library/jj591577.aspx
+
 
 
 ### So what are we going to learn here? 
