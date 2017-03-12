@@ -34,22 +34,20 @@ High services coupling prevented releasing them independently from one another. 
 ​
 
 
-Instead of turning this readme into another blog, here are some good blogs explaining the issue in much more detail.__
-http://blog.christianposta.com/microservices/the-hardest-part-about-microservices-data/. ​
-https://www.thoughtworks.com/insights/blog/scaling-microservices-event-stream. 
-https://www.ibm.com/developerworks/cloud/library/cl-build-app-using-microservices-and-cqrs-trs/
-https://www.confluent.io/blog/data-dichotomy-rethinking-the-way-we-treat-data-and-services/
-https://www.infoq.com/articles/microservices-aggregates-events-cqrs-part-1-richardson
-https://www.infoq.com/articles/microservices-aggregates-events-cqrs-part-2-richardson
-(https://youtu.be/7kX3fs0pWwc)
+Instead of turning this readme into another blog, here are some good blogs explaining the issue in much more detail...
+* http://blog.christianposta.com/microservices/the-hardest-part-about-microservices-data/. ​
+* https://www.thoughtworks.com/insights/blog/scaling-microservices-event-stream. 
+* https://www.ibm.com/developerworks/cloud/library/cl-build-app-using-microservices-and-cqrs-trs/
+* https://www.confluent.io/blog/data-dichotomy-rethinking-the-way-we-treat-data-and-services/
+* https://www.infoq.com/articles/microservices-aggregates-events-cqrs-part-1-richardson
+* https://www.infoq.com/articles/microservices-aggregates-events-cqrs-part-2-richardson
+* (https://youtu.be/7kX3fs0pWwc)
 
 
 ### Links to understand CQRS
-http://danielwhittaker.me/2014/11/15/aggregate-root-cqrs-event-sourcing/
-
-https://msdn.microsoft.com/en-us/library/jj591569.aspx
-
-https://msdn.microsoft.com/en-us/library/jj591577.aspx
+* http://danielwhittaker.me/2014/11/15/aggregate-root-cqrs-event-sourcing/
+* https://msdn.microsoft.com/en-us/library/jj591569.aspx
+* https://msdn.microsoft.com/en-us/library/jj591577.aspx
 
 
 
