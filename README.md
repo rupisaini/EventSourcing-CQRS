@@ -15,12 +15,14 @@ Microservices is the hot new buzzword, that started out as a new way to build fo
 Most of the non-internet enterprises don’t have scale problems of an Internet startup, their systems are often significantly more complex, and their organization are even more so. Microservices don’t seek to solve any other problem than how to break up work into smaller parts and how to scale up those parts as necessary.  
 
 
+![Simple microservices layout](https://github.com/rupisaini/EventSourcing-CQRS/blob/master/docs/images/Microservices_api-gateway.png)
 
 *Simple microservices layout.* 
  
 
 It wouldn't take long when microservices start looking like this. 
-
+![dependency hell](https://github.com/rupisaini/EventSourcing-CQRS/blob/master/docs/images/Microservices-dependency-hell.png)
+![dependency hell1](https://github.com/rupisaini/EventSourcing-CQRS/blob/master/docs/images/Microservices-dependency-hell1.png)
 
 *Microservices spaghetti diagram.*
 
