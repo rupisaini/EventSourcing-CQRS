@@ -15,14 +15,14 @@ Microservices is the hot new buzzword, that started out as a new way to build fo
 Most of the non-internet enterprises don’t have scale problems of an Internet startup, their systems are often significantly more complex, and their organization are even more so. Microservices don’t seek to solve any other problem than how to break up work into smaller parts and how to scale up those parts as necessary.  
 
 
-![Simple microservices layout](https://github.com/rupisaini/EventSourcing-CQRS/blob/master/docs/images/Microservices_api-gateway.png)
+![Simple microservices layout](docs/images/Microservices_api-gateway.png)
 
 *Simple microservices layout.* 
  
 
 It wouldn't take long when microservices start looking like this. 
-![dependency hell](https://github.com/rupisaini/EventSourcing-CQRS/blob/master/docs/images/Microservices-dependency-hell.png)
-![dependency hell1](https://github.com/rupisaini/EventSourcing-CQRS/blob/master/docs/images/Microservices-dependency-hell1.png)
+![dependency hell](docs/images/Microservices-dependency-hell.png)
+![dependency hell1](docs/images/Microservices-dependency-hell1.png)
 
 *Microservices spaghetti diagram.*
 
@@ -52,19 +52,16 @@ Instead of turning this readme into another blog, here are some good blogs expla
 * https://msdn.microsoft.com/en-us/library/jj591577.aspx
 
 
-
-### So what are we going to learn here? 
-
-We are going to implement ES+CQRS+DDD in multiple stages and try to mix various programming languages.
+### How I am planning to implement this concept.
+![Proposed architect ](docs/images/EventSourcing.jpg)
 
 
-What are we going to use? 
+
+#####What are we going to use? 
 * Docker for local dev environment
 * Kafka (Going to use Kafka for to reasons 1. Kafka Stream feature 2. Library support for different languages)
 * ZoopKeeper 
 * [Apache Avro](https://github.com/confluentinc/schema-registry)
 * Code in NodeJs or Go or Java Lambda
-
-
 
 
